@@ -17,7 +17,7 @@ if st.button('open your article '):
     if title is not None :
         st.sidebar.header('You can read also ....')
         #st.write('your article below :')
-        image = Image.open('C:/Users/AMC/Desktop/p9_stream/articles_example/1.PNG')
+        image = Image.open('1.PNG')
         st.image(image, caption='your article')
     
         
